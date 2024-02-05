@@ -12,6 +12,7 @@ This repository contains the code and configuration for hosting a static website
 ### Step 2: Create S3 Bucket
 
 3. Click on **Create bucket**.
+![image](https://github.com/charity-12/Website-Hosting-in-AWS/assets/93730840/ef86c823-43f8-4d50-918b-c9b88d05a974)
 
 
 4. Enter a globally unique bucket name. For this lab we use website-1008.
@@ -27,6 +28,8 @@ This repository contains the code and configuration for hosting a static website
    - Value: `Marketing`
 
 7. Click **Create bucket**.
+   ![image](https://github.com/charity-12/Website-Hosting-in-AWS/assets/93730840/f6d1cc49-acd6-4364-b1fd-dc1136d2eb8e)
+
 
 ### Step 3: Access the New Bucket
 
@@ -133,6 +136,9 @@ Objects in Amazon S3 are private by default. To make your website publicly acces
 14. Refresh the webpage.
 
 15. You should now see the static website hosted by Amazon S3.
+
+    ![image](https://github.com/charity-12/Website-Hosting-in-AWS/assets/93730840/fa719010-5f36-4db0-8ac6-2470b8d4bed0)
+
 
 Now you know how to share objects with everyone by making them public. However, there may be times when you need to share an individual object for a limited amount of time. In the next task, you will learn how to temporarily share an object.
 
