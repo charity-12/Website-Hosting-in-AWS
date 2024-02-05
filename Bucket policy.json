@@ -1,0 +1,17 @@
+{
+  "Version": "2012-10-17",
+  "Id": "MyBucketPolicy",
+  "Statement": [
+    {
+      "Sid": "BucketPutDelete",
+      "Effect": "Deny",
+      "Principal": "*",
+      "Action": "s3:DeleteObject",
+      "Resource": [
+        "arn:aws:s3:::<bucket-name>/index.html",
+        "arn:aws:s3:::<bucket-name>/script.js",
+        "arn:aws:s3:::<bucket-name>/style.css"
+        ]
+    }
+  ]
+}
